@@ -13,22 +13,7 @@ I wanted to be able to respool from Polymaker's 5kg spools, so I modified the so
 ![20230817_211425](https://github.com/Blargedy/Pastamatic-Filament-Spool-Winder-Modifications/assets/25805271/9ad774e3-8044-477a-b44d-376d83898fad)
 
 ## Parts to Print
-### From this mod
-* If your printer build plate can fit the "1x_source_brace_for_5kg_spools.stl" then use that file. Otherwise, use the "*_small_bed.stl" version
-* One of each file excluding the cases above
-
-### From the original
-* 1x_double_idler.stl
-* 1x_leadscrew.stl
-* 1x_leadscrew_pin.stl
-* 1x_leadscrew_tooth.stl
-* 1x_passive_target_cradle.stl
-* 1x_spindle_female.stl or alternate_spindle_female_long.stl
-* 1x_spindle_male_driven.stl
-* 1x_spindle_male_passive.stl
-* 2x_source_cradle.stl
-* 5x_idler.stl
-* 7x_pin_long.stl
-* 8x_pin_short.stl
+* import `Full_Set_of_Parts.3mf` and you will get all the parts you need.
+* If you don't have a 300mm or greater build plate print the `1x_source_brace_for_5kg_spools_small_bed.stl` instead of the regular one.
   
 The wiper mounts were, in my experience, completely useless and only got in the way. You may try them yourself but imo they're a waste of time and filament. I also found the spindle_clip to kinda suck, but ymmv.
